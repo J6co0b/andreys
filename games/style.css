@@ -1,0 +1,56 @@
+body, html {
+background-image: url('https://andrey.cf/photos/backround.gif');
+  /* Full height */
+  height: 100%; 
+  
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+body, html {
+  color: #eabefe;
+  text-shadow:
+      0 0 7px #eabefe,
+      0 0 10px #eabefe,
+      0 0 21px #eabefe,
+      0 0 42px #b22dd7,
+      0 0 82px #b22dd7,
+      0 0 92px #b22dd7,
+      0 0 102px #b22dd7,
+      0 0 151px #b22dd7;
+}
+
+body {
+    font-family: Verdana, sans-serif;
+}
+
+
+.h1 {
+  font-size: 40px;
+}
+
+.tab{
+  background:transparent;
+  color:#b22dd7;
+  height:50px;
+  font-size: 30px;
+  cursor: pointer; /* Add a pointer on hover */
+}
+#settings {
+  position: fixed; /* Sit on top of the page content */
+  display: none; /* Hidden by default */
+  width: 100%; /* Full width (cover the whole page) */
+  height: 100%; /* Full height (cover the whole page) */
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: black; /* Black background with opacity */
+  z-index: 2; /* Specify a stack order in case you're using a different order for other elements */
+}
+
+img {
+  border: 5px solid #555;
+}
